@@ -2,7 +2,7 @@
 
 A simple school administration system to manage student records and attendance.
 
-## Features (MVP)
+## Features
 - Add / Edit / View students
 - Record daily attendance (Present / Absent / Late)
 - Search students
@@ -15,7 +15,7 @@ A simple school administration system to manage student records and attendance.
 
 ## Database Design
 
-### students
+### Students
 - id (PK)
 - first_name
 - last_name
@@ -23,7 +23,7 @@ A simple school administration system to manage student records and attendance.
 - parent_name
 - parent_phone
 
-### attendance
+### Attendance
 - id (PK)
 - student_id (FK)
 - date
