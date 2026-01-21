@@ -1,6 +1,6 @@
 from flask import Flask, request, redirect, url_for
 import sqlite3
-from pathlib import Path
+from pathlib import Path 
 
 app = Flask(__name__)
 DB_PATH = Path("school.db")
